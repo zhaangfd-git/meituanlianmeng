@@ -32,6 +32,7 @@ public class Test {
         for (Map.Entry entry:map.entrySet()){
             sb.append(entry.getKey()+"="+entry.getValue()+"&");
         }
+
         sb.append("sign="+sign);
 
         System.out.println(sb.toString());
